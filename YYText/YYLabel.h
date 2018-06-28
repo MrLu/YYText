@@ -341,11 +341,11 @@ IB_DESIGNABLE
 @property (nonatomic) IBInspectable CGFloat fontSize_;
 @property (nonatomic) IBInspectable BOOL fontIsBold_;
 @property (nonatomic) IBInspectable NSUInteger numberOfLines;
-@property (nonatomic) IBInspectable NSInteger lineBreakMode;
+@property (nonatomic) IBInspectable NSLineBreakMode lineBreakMode;
 @property (nonatomic) IBInspectable CGFloat preferredMaxLayoutWidth;
 @property (nonatomic, getter=isVerticalForm) IBInspectable BOOL verticalForm;
-@property (nonatomic) IBInspectable NSInteger textAlignment;
-@property (nonatomic) IBInspectable NSInteger textVerticalAlignment;
+@property (nonatomic) IBInspectable NSTextAlignment textAlignment;
+@property (nonatomic) IBInspectable YYTextVerticalAlignment textVerticalAlignment;
 @property (nullable, nonatomic, strong) IBInspectable UIColor *shadowColor;
 @property (nonatomic) IBInspectable CGPoint shadowOffset;
 @property (nonatomic) IBInspectable CGFloat shadowBlurRadius;
